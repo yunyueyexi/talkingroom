@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChatDialog</class>
+ <widget class="QDialog" name="ChatDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>547</width>
+    <height>404</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>聊天室</string>
+  </property>
+  <widget class="QPlainTextEdit" name="textRecord">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>17</y>
+     <width>501</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="textMsg">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>315</y>
+     <width>391</width>
+     <height>70</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSendMsg">
+   <property name="geometry">
+    <rect>
+     <x>421</x>
+     <y>314</y>
+     <width>101</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发 送</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>textMsg</tabstop>
+  <tabstop>btnSendMsg</tabstop>
+  <tabstop>textRecord</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
